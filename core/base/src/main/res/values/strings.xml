@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="net_work_error">No internet connection</string>
+    <string name="remote_parsing_error">Remote Parsing Error</string>
+    <string name="unexpected_error">Unexpected Error</string>
+    <string name="bad_request">Bad request. Please check your input.</string>
+    <string name="unauthorized">You need to log in again.</string>
+    <string name="forbidden">Access denied.</string>
+    <string name="not_found">Item not found.</string>
+    <string name="server_error">Server error. Please try later.</string>
+    <string name="http_error_generic">Unexpected error (%1$d)</string>
+
+</resources>

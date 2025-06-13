@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="company_info">
+    %1$s was founded by %2$s in %3$d. It has now %4$d employees, %5$d launch sites, and is valued at USD %6$s.
+</string>
+    <string name="company">COMPANY</string>
+    <string name="try_again">Retry</string>
+    <string name="unknown">unknown</string>
+    <string name="no_url">Link isn\'t provided</string>
+    <string name="open_link" >Open Launch Details</string>
+    <string name="choose_option">Choose an option to open</string>
+    <string name="article">Article</string>
+    <string name="wikipedia">Wikipedia</string>
+    <string name="video">Video</string>
+    <string name="mission_photo">Mission Patch</string>
+    <string name="apply">Apply</string>
+    <string name="cancel">Cancel</string>
+    <string name="filters">Filter Launches</string>
+    <string name="sort_order">Sort Order</string>
+    <string name="asc">ASC</string>
+    <string name="desc">DESC</string>
+    <string name="only_success_launches">Only successful launches</string>
+    <string name="year">Launch Years</string>
+    <string name="mission_prefix">Mission: %1$s</string>
+    <string name="launch_datetime">Date/Time: %1$s</string>
+    <string name="rocket_name">Rocket: %1$s</string>
+    <string name="days_since_launch">Days since %1$d</string>
+    <string name="days_from_launch">Days from %1$d</string>
+    <string name="success_icon_desc">Success</string>
+    <string name="failure_icon_desc">Failure</string>
+
+</resources>
