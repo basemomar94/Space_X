@@ -72,7 +72,7 @@ fun FilterAppBar(
 
 @Preview(showBackground = true)
 @Composable
-fun FilterAppBarPreview() {
+internal fun FilterAppBarPreview() {
     MaterialTheme {
         FilterAppBar("Space X") { }
 

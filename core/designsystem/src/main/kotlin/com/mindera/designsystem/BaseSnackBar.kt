@@ -9,6 +9,7 @@ import androidx.compose.material3.SnackbarHostState
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 
 @Composable
@@ -17,7 +18,7 @@ fun BaseSnackBar(
     snackBarState: SnackbarHostState,
     actionText: String? = null,
     onActionClick: (() -> Unit?)? = null,
-    ) {
+) {
     SnackbarHost(
         modifier = modifier,
         hostState = snackBarState
@@ -40,4 +41,10 @@ fun BaseSnackBar(
             Text(text = snackBarData.visuals.message, style = MaterialTheme.typography.bodyLarge)
         }
     }
+}
+
+@Preview(showBackground = true)
+@Composable
+internal fun BaseSnackBarPreview() {
+    BaseSnackBar(snackBarState = SnackbarHostState())
 }
