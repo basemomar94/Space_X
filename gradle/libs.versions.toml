@@ -77,6 +77,11 @@ uiTest = [
     "androidx-ui-test-manifest",
     "androidx-compose-ui-test-junit4"
 ]
+
+viewModel=[
+    "androidx-lifecycle-viewmodel-compose",
+    "androidx-lifecycle-runtime-compose"
+]
 [plugins]
 android-application = { id = "com.android.application", version.ref = "androidGradlePlugin" }
 android-test = { id = "com.android.test", version.ref = "androidGradlePlugin" }

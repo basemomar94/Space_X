@@ -52,12 +52,8 @@ dependencies {
     implementation(project(":core:designsystem"))
     implementation(project(":domain"))
 
-    implementation(platform(libs.androidx.compose.bom))
-    implementation(libs.bundles.compose)
 
-    implementation(libs.androidx.lifecycle.viewmodel.compose)
-    implementation(libs.androidx.lifecycle.runtime.compose)
-    implementation(libs.glide)
+    implementation(libs.bundles.viewModel)
     debugImplementation(libs.androidx.compose.ui.tooling)
     implementation(libs.hilt.navigation.compose)
     implementation(libs.hilt.android)

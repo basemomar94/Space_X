@@ -35,10 +35,10 @@ android {
 }
 
 dependencies {
-    implementation(platform(libs.androidx.compose.bom))
-    implementation(libs.bundles.compose)
+    api(platform(libs.androidx.compose.bom))
+    api(libs.bundles.compose)
 
-    implementation(libs.glide)
+    api(libs.glide)
     androidTestImplementation(libs.bundles.uiTest)
     testImplementation(kotlin("test"))
 }
